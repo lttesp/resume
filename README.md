@@ -1,6 +1,12 @@
-#Resume
-My Professional Resume
+# Resume<br />
+My Professional Resume<br />
+                                       
+## About<br />
+Professional Resume using LaTeX and XeLaTeX.<br />                                       
 
-##About
-Professional Resume using LaTeX and XeLaTeX.
-
+## Details <br />
+Typeset Engine : XeLateX <br />
+Editor Used : TexWorks <br />
+Revision Changes:
+* Added PG Degree <br />
+* Some Minor Changes
