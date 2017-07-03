@@ -1,13 +1,15 @@
 % !TEX TS-program = xelatex
+% Editor Used = texworks 
 % !TEX encoding = UTF-8 Unicode
 % -*- coding: UTF-8; -*-
 % vim: set fenc=utf-8
+% Revision History = v 3.2
+% See CV note for Various Changes 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% MY PRO RESUME
-%% <https://github.com/lttesp/myresume>
+%% <https://github.com/lttesp/resume>
 %% This is free and unencumbered software released into the
-%% public domain; see <http://unlicense.org> for details.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[letterpaper,MMMyyyy,nonstop]{simpleresumecv}
@@ -22,7 +24,7 @@
 % CV Info (to be customized).
 \newcommand{\CVAuthor}{Prabhakaran M.}
 \newcommand{\CVTitle}{Prabhakaran M}
-\newcommand{\CVWebpage}{http://www.lttesp.com}
+\newcommand{\CVWebpage}{https://lttesp.github.io}
 %\newcommand{\CVNote}{CV compiled on {\today} }
 
 
@@ -60,8 +62,8 @@ breaklinks}
 \title{\CVAuthor}
 
 \begin{subtitle}
-\href{https://www.google.com/maps/place/17+Prime+Avenue,+Springfield,+Pennsylvania+10111,+USA}
-{No.2 M Block, Police Quarters,Near B1 Police Station, Dharmapuri 636701}
+\href{https://www.google.co.in/maps/place/B1+Town+Police+Station/@12.1289065,78.1592938,19z/data=!4m2!3m1!1s0x3bac16fdb579ea7b:0xece4708cacc17e9a}
+{No.2, M Block, Police Quarters, Near B1 Police Station, Dharmapuri - 636701}
 \par
 \href{mailto:cgprabhakaran@gmail.com}
 {cgprabhakaran@gmail.com}
@@ -75,6 +77,18 @@ breaklinks}
 \begin{body}
 
 %%%%%%%%%%%%%%%
+%% CAREER OBJECTIVE %%
+%%%%%%%%%%%%%%%
+
+\section
+{Career Objective}
+{Career Objective}
+{PDF:CareerObjective}
+
+\emph{To obtain a challenging role so that I can use my capabilities through sincere dedication and hard work to move up the graph of the Organization.}
+
+
+%%%%%%%%%%%%%%%
 %% EDUCATION %%
 %%%%%%%%%%%%%%%
 
@@ -83,23 +97,45 @@ breaklinks}
 {Education}
 {PDF:Education}
 
-\href{http://www.velammal.edu.in}
-{\textbf{Velammal Engineering College}},
-Surapet, Chennai
+\href{http://www.kct.ac.in}
+{\textbf{Kumaraguru College of Technology}},
+Saravanampatty, Coimbatore.
 
 \GapNoBreak
 \BulletItem
-Bachelor of Technology (B.Tech) in
-\href{http://www.example.com/my-department}
-{Information Technology}
+\emph {Master of Engineering (M.E) in}
+\href{http://kct.ac.in/cse.html}
+{{Computer Science and Engineering}}
+\hfill
+\DatestampYMD{2016}{08}{29} --
+\DatestampYMD{2018}{05}{01}
+\begin{detail}
+\SubBulletItem 
+Currently Pursuing
+\SubBulletItem 
+Affliation : Anna University, Chennai.
+\SubBulletItem
+Semester GPA: 3.60 (Upto 1\textsuperscript{st} Semester)
+\end{detail}
+\BigGap
+
+\href{http://www.velammal.edu.in}
+{\textbf{Velammal Engineering College}},
+Surapet, Chennai.
+
+\GapNoBreak
+\BulletItem
+\emph {Bachelor of Technology (B.Tech) in}
+\href{velammal.edu.in/ITnew_aboutdep.html}
+{{Information Technology}}
 \hfill
 \DatestampYMD{2011}{08}{14} --
 \DatestampYMD{2015}{05}{08}
 \begin{detail}
-\SubBulletItem
-Cumulative GPA: 6.69 / 10
 \SubBulletItem 
 Affliation : Anna University, Chennai.
+\SubBulletItem
+Cumulative GPA: 6.69 / 10
 \end{detail}
 
 \BigGap
@@ -109,9 +145,9 @@ Uthangarai, Krishnagiri.
 
 \GapNoBreak
 \BulletItem
-Higher Secondary Education 
+\emph{Higher Secondary Education - }
 \href{http://www.example.com/my-department}
-{12 Standard}
+{12\textsuperscript{th} Standard}
 \hfill
 \DatestampYMD{2010}{06}{01} --
 \DatestampYMD{2011}{05}{27}
@@ -129,15 +165,15 @@ Gandhhi Nagar, Dharmapuri.
 
 \GapNoBreak
 \BulletItem
-Secondary School Education 
+\emph {Secondary School Education -}
 \href{}
-{10th Standard}
+{10\textsuperscript{th} Standard}
 \hfill
 \DatestampYMD{2008}{05}{31} --
 \DatestampYMD{2009}{04}{06}
 \begin{detail}
 \SubBulletItem
-Board : TN - State Board
+Board : TN - Matriculation Board
 \SubBulletItem
 Percentage Scored : 86\%
 \end{detail}
@@ -154,15 +190,23 @@ Percentage Scored : 86\%
 \BulletItem
 Operating System : Windows 8, Linux Mint 17 Rebecca 
 
+\GapNoBreak
+%\newline
 \BulletItem
 Programming Languages : C, Java, Python, {\LaTeX} 
 
+\GapNoBreak
+%\newline
 \BulletItem
 Web Technologies : HTML 5, CSS 3, PHP, JavaScript 
+%
+%\GapNoBreak
+%\newline
+%\BulletItem
+%Software Proficieny : Adobe Photoshop, Adobe Illustrator, Muse, Adobe Edge 
 
-\BulletItem
-Software Proficieny : Adobe Photoshop, Adobe Illustrator, Muse, Adobe Edge 
-
+\GapNoBreak
+\newline
 \BulletItem
 Other Tools : Git
 
@@ -176,9 +220,7 @@ Other Tools : Git
 {PDF:Interests}
 
 Web Development,
-Database Management,
-Data Structures,
-SEO,
+Data Analytics,
 Social Media Analysis
 
 
@@ -204,7 +246,7 @@ Chennai.
 
 \begin{detail}
 \SubBulletItem
-Developed a Company Website for WidEva Systems.
+Developed company website for WidEva Systems.
 \SubBulletItem
 Co-ordinated with Tech team for developing portal  using Web2py Framework.
 \SubBulletItem
@@ -226,10 +268,12 @@ Chennai.
 
 \begin{detail}
 \SubBulletItem
-Developed a Company Website for Azzept Technologies Private Limited.
+Developed company website for Azzept Technologies Private Limited.
 \SubBulletItem
 Front - End Developer for selective projects.
 \end{detail}
+
+\BigGap
 
 %%%%%%%%%%%%%%%%%%%%%%%
 %% CAMPUS ACTIVITIES %%
@@ -246,20 +290,32 @@ Velammal Engineering College
 
 \GapNoBreak
 \BulletItem
-\emph{Volunteer \& Co-ordinator}
+\emph{ Co-ordinator}
 \hfill
-\DatestampYMD{2015}{08}{14}
+\DatestampYMD{2014}{08}{14}
+
+\BigGap
+
+\href{\#}
+{\textbf{Web Developer \& Designer}},
+Department of IT, Velammal Engineering College
+
+\BulletItem
+\emph{Web Developer for Department Symposium, Conference and  for all Other Activities }
+\hfill
+\DatestampYMD{2014}{10}{14}
+
 
 \BigGap
 \href{\#}
-{\textbf{Vounteer and Web Developer}},
+{\textbf{Vounteer \& Web Developer}},
 E-Cell, Lemon Ivy, Velammal Engineering College
 
 \GapNoBreak
 \BulletItem
 \emph{Volunteer \& Web Developer } 
 \hfill
-\DatestampYMD{2014}{03}{14}
+\DatestampYMD{2013}{03}{14}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% OTHER WORK EXPERIENCE %%
@@ -333,9 +389,8 @@ Built using Python with Web2py Framework.
 \newline
 \emph {Passed Business English Certificate Preliminary}
 
-\GapNoBreak
 \newline
-
+\GapNoBreak
 \BulletItem
 \textbf{1Z0-803 \& 1Z0-804 Oracle Certified Professional, Java SE 7 Programmer }
 \newline
@@ -401,9 +456,10 @@ Flexibility
 \BulletItem
 Surfing
 
-\GapNoBreak
-\BulletItem
-Reading Books
+%
+%\GapNoBreak
+%\BulletItem
+%Reading Books
 
 \GapNoBreak
 \BulletItem
@@ -413,8 +469,8 @@ Blogging
 \BulletItem
 Creative Designing 
 
-%%%%%%%%%%%%%%% 
-%% WEB PRESENCE %%
+%%%%%%%%%%%%%%
+%% WEB PRESENCE %%%%%
 %%%%%%%%%%%%%%%
 
 \section
@@ -423,18 +479,18 @@ Creative Designing
 {PDF:WebPresence}
 
 \BulletItem
-Quora (I write and read) : https://www.quora.com/Tapasweni-Pathak
-
+Quora (I write and read) : https://www.quora.com/Prabhakaran-Sp-2
 \GapNoBreak
+
 \BulletItem
 GitHub (I share my code) : https://github.com/lttesp
 
 \GapNoBreak
 \BulletItem
-Blog (I share my experiences) : https://blog.lttesp.com/
+Blog (I share my experiences) : https://lttesp.github.io/blog
 
 %%%%%%%%%%%%%%% 
-%% LANGUAGES %%
+%% LANGUAGES %%%%%%%
 %%%%%%%%%%%%%%%
 
 \section
@@ -443,13 +499,36 @@ Blog (I share my experiences) : https://blog.lttesp.com/
 {PDF:Languages}
 
 \BulletItem
-Tamil: Mother Tongue(Speaking, reading , Writing).
+Tamil : Mother Tongue (Speaking, Reading , Writing).
 
 \GapNoBreak
 \BulletItem
-English: Native language(Speaking, reading , Writing).
+English : Native language (Speaking, Reading , Writing).
 
+%%%%%%%%%%%%%%%%
+%% REFERENCES %%
+%%%%%%%%%%%%%%%%
 
+\section
+{References}
+{References}
+{PDF:References}
+
+\BulletItem
+\textbf{Mr. Dinesh Gunasekar}
+\newline
+Founder \& CTO, WidEva Systems Private Limited
+\newline
+\href{mailto:danny@osdefsec.com}
+{danny@osdefsec.com}
+
+\BulletItem
+\textbf{Mr. Parthiban K.}
+\newline
+HR Manager, Azzept Technologies Private Limited
+\newline
+\href{mailto:parthiban@ruinfotech.com}
+{parthiban@ruinfotech.com}
 
 \end{body}
 
@@ -457,9 +536,9 @@ English: Native language(Speaking, reading , Writing).
 % CV NOTE %
 %%%%%%%%%%%
 
-\UseNoteFont%
-\null\hfill%
-[\textit{\CVNote}]%
-\hspace{2.0mm}\null
+%\UseNoteFont%
+%\null\hfill%
+%[\textit{\CVNote}]%
+%\hspace{2.0mm}\null
 
 \end{document}
